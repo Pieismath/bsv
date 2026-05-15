@@ -1,0 +1,61 @@
+{
+  "shot_metadata": {
+    "film_or_source": "Drive (2011)",
+    "dp_or_director": "Newton Thomas Sigel / Nicolas Winding Refn",
+    "scene_description": "Two-shot inside an elevator: a blonde woman (Irene) framed back-of-head left, soft and out of focus, while the Driver stands in profile on the right, sharply lit by the elevator's wall sconce. A vertical amber wall fixture glows between them against dark wood paneling."
+  },
+  "lighting": {
+    "key": {
+      "source": "The practical amber wall sconce on the elevator's back wall, the only in-world fixture lighting the cabin",
+      "quality": "soft but directional, slightly broken by the frosted sconce cover",
+      "direction": "side, from screen-right relative to the Driver's face, almost a 90-degree profile key",
+      "color_temperature_kelvin": "2700-3000",
+      "intensity_read": "low-key"
+    },
+    "fill": {
+      "presence": "minimal",
+      "source": "weak bounce off the wood paneling and the elevator's matte interior walls",
+      "ratio_estimate": "roughly 1:8 on the Driver, deeper on Irene who sits almost entirely in shadow"
+    },
+    "back_or_rim": {
+      "presence": "subtle",
+      "source": "spill from the sconce wrapping the Driver's hairline and catching the satin scorpion jacket; a faint top kiss on Irene's blonde hair from ceiling spill",
+      "color_temperature_kelvin": "2700-3000"
+    },
+    "practicals_in_frame": [
+      "Vertical amber wall sconce center-frame, doing essentially all the work as both motivator and actual key",
+      "Floor indicator panel at far left edge, dim, adds a small graphic element but no light contribution"
+    ],
+    "atmospherics": "clean, no visible haze; the softness comes from diffusion in the sconce itself, not air"
+  },
+  "composition": {
+    "framing": "medium close-up two-shot",
+    "lens_inference": "40mm range, likely shot on the Arri Alexa with Hawk or Cooke primes; mild compression and the way the back wall sits suggests a normal lens close to the actors",
+    "depth_of_field": "shallow, focus pulled to the Driver's eye line on the right; Irene's head deliberately soft in the foreground left",
+    "blocking": "Irene back-to-camera occupying the left third, the Driver in clean profile on the right third, the sconce centered between them as a literal barrier. Their eyelines do not meet; he looks down and past her. Body language reads as charged stillness, the elevator pause before the kiss/violence beat.",
+    "negative_space": "the dark upper-center and the wood paneling act as a hush around the two figures; the sconce occupies the visual middle where a third character's face would be",
+    "color_palette": "warm amber and tobacco browns against the cream of the jacket and her blonde hair; near monochromatic in the orange family with the only break being the cool metallic floor panel at the edge"
+  },
+  "mood_and_intent": {
+    "reading": "Suspended time. Two people who have not spoken their feelings sharing a coffin-sized box with a single warm bulb between them. The shot is the held breath before Refn's slow-motion kiss.",
+    "why_it_works": "Putting the practical literally between the faces, then letting it serve as the only key, collapses the lighting plan and the blocking into one decision. The geometry of the fixture does the dramatic work."
+  },
+  "production_inference": {
+    "likely_setup": "The sconce is a hot-rodded practical, probably re-lamped with a higher-wattage household bulb or a small LED bulb behind the existing frosted cover so it could actually carry exposure. The elevator interior was likely a set or a dressed practical car with removable walls; ceiling was probably flagged off so the sconce reads as the sole source. A very gentle ambient bounce (small bead-board or muslin off-camera left) keeps Irene's silhouette from going pure black against the wood.",
+    "fixtures_implied": [
+      "Practical wall sconce with frosted glass, re-lamped 60-100W tungsten equivalent",
+      "Possible small tungsten bulb or 2700K LED hidden inside the sconce for boost",
+      "Off-camera negative fill (black duvetyne) camera-left to protect the shadow side",
+      "Possible 1x1 tungsten-balanced bounce card for a whisper of fill on Irene's hair"
+    ]
+  },
+  "replication_difficulty": {
+    "blockers": [
+      "Getting a wall practical to actually expose a face cleanly without it blooming in the frame",
+      "Holding focus on the Driver's eye while keeping Irene's head soft but still readable as her",
+      "Controlling reflections in the polished wood paneling of the elevator walls",
+      "Fitting camera, operator, and two actors inside a real elevator car or building a convincing wild-wall version"
+    ],
+    "what_is_actually_hard": "The specific trick is that the sconce is the key, the separation, and the compositional centerpiece simultaneously, and it has to be hot enough to model the Driver's profile at a working stop while not clipping when it sits dead-center of frame as the brightest object. That balance is usually solved by re-lamping the fixture to a known output, then dimming on a hand squeezer during the take so the bulb sits maybe a stop or a stop and a half over the face, never more. Get the bulb too hot and the eye goes to the lamp instead of him; too cool and you lose the profile key and the shot collapses into murk. It is a single-source exposure tightrope where the source is also the subject of the composition, which is what separates this from a generic warm-practical two-shot."
+  }
+}

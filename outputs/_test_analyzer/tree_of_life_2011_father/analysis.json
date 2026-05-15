@@ -1,0 +1,56 @@
+{
+  "shot_metadata": {
+    "film_or_source": "The Tree of Life (2011)",
+    "dp_or_director": "Emmanuel Lubezki / Terrence Malick",
+    "scene_description": "A father in a short-sleeve work shirt stands on a suburban lawn at sunset, hand placed on the shoulder/neck of his young son who faces away from camera. The setting sun flares directly between them through trees framing a house in the background."
+  },
+  "lighting": {
+    "key": {
+      "source": "The setting sun, low on the horizon, raked directly into the lens between the two figures. This is the singular motivated source, no augmentation visible.",
+      "quality": "hard at the source but partially broken by foliage, producing a strong directional flare with softened edge wrap on the man's right side",
+      "direction": "back/3-quarter back, sun positioned just behind and between the subjects",
+      "color_temperature_kelvin": "2200-2800",
+      "intensity_read": "mid-key with crushed front faces, the exposure is keyed to the sky/sun so faces ride on ambient sky bounce"
+    },
+    "fill": {
+      "presence": "gentle",
+      "source": "open sky bounce from the east-facing side of the scene, plus some light coming off the pale lawn and the white house at frame left",
+      "ratio_estimate": "roughly 1:6 to 1:8, faces are well below sun key"
+    },
+    "back_or_rim": {
+      "presence": "strong",
+      "source": "the same setting sun acting as the rim, lighting the top of the boy's head, the man's right shoulder, ear, and the gold watch on his wrist",
+      "color_temperature_kelvin": "2400-2800"
+    },
+    "practicals_in_frame": [],
+    "atmospherics": "clean air with slight natural haze from humidity and dust, enough to bloom the sun flare into a defined starburst rather than a clipped white blob. Not artificially smoked."
+  },
+  "composition": {
+    "framing": "medium, cropped at the boy's mid-back and the man's waist",
+    "lens_inference": "wide, likely 21mm or 25mm on the Alexa-era setup Lubezki favored on this film, given the strong foreground presence of both bodies and the still-readable house in the background",
+    "depth_of_field": "medium-deep, both figures and the house behind hold acceptable focus, typical of Malick/Lubezki handheld wide work shot at a moderate stop",
+    "blocking": "Father at frame right looking down and across at the boy at frame left, his arm bridging the negative space between them. The boy is turned away from camera, head tilted slightly down. The sun sits in the gap their bodies create.",
+    "negative_space": "The center of the frame is given to the sun and the distant house, not to either character's face. The emotional content lives in the gesture (hand on neck) and the gap between the two bodies that the light pours through.",
+    "color_palette": "warm amber and gold sun against the cool green of summer lawn and trees, a classic complementary orange/green split. The man's brown shirt and the boy's olive shirt both sit in the warm-neutral range, keeping skin and wardrobe from fighting the sun."
+  },
+  "mood_and_intent": {
+    "reading": "Paternal authority and tenderness held in tension. The hand on the neck is ambiguous, could be guidance or control. Shooting into the sun and letting it sit between them turns a domestic gesture into something mythic and slightly threatening.",
+    "why_it_works": "The sun is placed in the exact geometric gap between father and son, so the light is literally the third character. Combined with the boy being faceless to camera, the viewer is forced into the boy's subjective position looking up at a backlit, partially obscured father figure."
+  },
+  "production_inference": {
+    "likely_setup": "Shot handheld at magic hour with available light only, no HMI bounce, no negative fill. The crew would have had minutes to land this. Camera operator (likely Lubezki himself or Jorg Widmer) walking in, finding the sun position relative to the actors in real time. Likely a clean uncoated or lightly coated wide prime to encourage the flare to bloom rather than smear.",
+    "fixtures_implied": [
+      "the sun, roughly 20-30 minutes before horizon set",
+      "possibly a small white bounce or just the lawn/house acting as natural fill, but nothing that imposes a second direction"
+    ]
+  },
+  "replication_difficulty": {
+    "blockers": [
+      "Magic hour gives you 15-20 usable minutes per day, and the sun moves visibly within a take",
+      "Lens flare character depends heavily on the specific glass (older or uncoated primes flare in a way modern coated zooms will not replicate)",
+      "Holding faces above crush while the sun is in frame requires a sensor with real latitude (Alexa) or careful exposure compromise on lesser cameras",
+      "Choreographing actor positions so the sun lands exactly in the inter-body gap, while handheld, while light is changing"
+    ],
+    "what_is_actually_hard": "The pivot is that the sun has to thread the needle of the negative space between the two actors at the exact moment the father's hand lands on the boy's neck, and it has to do so on a handheld operator's instinct, not a locked-off mark. Lubezki and Malick's method on this film was to roll long, let actors move organically, and have the operator hunt the sun-through-gap geometry in real time, choosing the take where blocking, gesture, and solar position align. You cannot board this shot or rehearse it to a mark, because the sun is your unrepeatable collaborator. The discipline is operator-as-hunter, plus the editorial willingness to throw out 90 percent of coverage to keep the one frame where the geometry resolved."
+  }
+}
