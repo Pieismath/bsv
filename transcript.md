@@ -2,7 +2,7 @@
 
 Raw Claude Code session, May 2026. Jason Fang × Claude Opus 4.7 (1M context).
 
-**What's in here:** every user message and every assistant message from the project working session, in order. One Anthropic API key was redacted (replaced with `sk-ant-api03-[REDACTED]`). Tool calls (Bash, Read, Write, Edit, WebFetch, WebSearch, etc.) are shown inline as brief markers so the working process is visible without 100KB of raw command output per call. Tool results returned to the assistant are noted as a count but not pasted. Internal model thinking blocks are omitted (they were not visible to the user during the session and are not part of the working conversation).
+**What's in here:** every user message and every assistant message, in order, unedited except for the redaction of one Anthropic API key (replaced with `sk-ant-api03-[REDACTED]`). Tool calls (Bash, Read, Write, Edit, WebFetch, WebSearch, etc.) are shown inline as brief markers so the working process is visible without 100KB of raw command output per call. Tool results returned to the assistant are noted as a count but not pasted. Internal model thinking blocks are omitted (they were not visible to the user during the session and are not part of the working conversation).
 
 **Context:** the goal was a prototype GTM content engine for Beeble AI, demonstrating how a vision-LLM pipeline can produce taste-calibrated, channel-native shot-breakdown content at indie filmmaker audience quality. The build progressed through: framing checks, scaffolding, the shot analyzer (with two diagnostic prompt iterations), the Beeble fit reasoner, the multi-format content generator (with one taste-driven iteration on the TikTok prompt), an end-to-end second-shot run, human-review edits to catch propagated issues, and finally a public repo push.
 
@@ -3470,5 +3470,3 @@ Live at [https://github.com/Pieismath/bsv](https://github.com/Pieismath/bsv). Co
 - `.claude/` (Claude Code local workspace)
 - `references/shots/*.jpg` (the Tree of Life and Drive thumbnails — copyrighted film stills, kept local for the copyright-cautious reason). The `references/shots/.gitkeep` is in the repo so the directory structure is visible.
 - `.venv/`, Python caches, `.DS_Store`, IDE folders
-
-**One housekeeping note.** The `ANTHROPIC_API_KEY` you pasted in chat earlier is still active. The repo doesn't contain it, but since you shared it in conversation it's worth rotating after the submission is done as standard hygiene. The key in your local `.env` is what the agent uses for any future runs; rotating it just means updating one file.
