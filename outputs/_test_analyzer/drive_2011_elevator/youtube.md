@@ -25,13 +25,13 @@ Beats:
 [2:00-3:30] Beeble pivot
 B-roll: Screen capture of SwitchX interface. Cut to a home hallway two-shot being set up (behind the scenes style, casual). Phone or mirrorless on a small gimbal or handheld. Actors in profile-to-back-of-head blocking. Cut to the reference image being loaded into SwitchX.
 Beats:
-- The workflow tool here is Beeble SwitchX. What it does: takes a source clip and pushes its environment, lighting palette, and color toward a reference image while holding subject identity through Auto mask.
+- The workflow tool here is Beeble SwitchX. What it does: takes a source clip and pushes its environment, lighting palette, and color toward a reference image while holding subject identity through Select mask.
 - This shot is a good candidate because the mood is fundamentally a palette and environment problem. Warm sconce color, dark wood surroundings, tobacco-amber low-key contrast. Those are the things SwitchX is designed to move toward.
 - What to shoot: two people in a narrow hallway or against a flat wall. Profile-to-back-of-head blocking, about 18 inches apart. Eye level, normal-lens equivalent (35 to 50mm full-frame). Medium close-up two-shot with that same left-third, right-third framing. Light them flat and evenly, bounced daylight or a single lamp from camera position. Do not try to fake the warm sconce in camera; give SwitchX a clean, readable source to work from.
 - Keep the take short. The ceiling here is 240 frames. That is 8 seconds at 30fps, 10 seconds at 24fps. This shot is a held breath beat; keep it in that range or plan to chunk longer takes.
 - Handheld with a small organic sway. Have the actors hold stillness and let the eyelines not connect. Leave the negative space between them.
 - Reference image: a still from the Drive elevator scene if fair use permits, otherwise a generated reference built around the key elements: centered amber sconce, dark wood paneling, 2700K warm side key, deep shadow on the back-of-head figure, low-key ratio. The model needs to extract the warm color temperature, the practical motif, the environment, and the overall contrast structure.
-- In SwitchX, use Auto mask mode. Let the reference do the heavy lifting on the environment and palette. Autopilot prompting is appropriate here.
+- In SwitchX, use Select mask mode and add both performers as separate subjects. Let the reference do the heavy lifting on the environment and palette. Autopilot prompting is appropriate here.
 
 [3:30-4:30] Payoff
 B-roll: Side-by-side: Drive source frame left, SwitchX result right. Slow cut between them. Maybe a second comparison pair, slightly different framing. Close crop on what worked (palette, environment shift). Close crop on what did not (face-light precision, depth of field, jacket specular).
